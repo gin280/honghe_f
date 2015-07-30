@@ -1,0 +1,311 @@
+/* line 7, ../sass/styles.scss */
+body {
+  font-family: "helvetica,arial,sans-serif,Microsoft YaHei,SimSun";
+}
+
+/* line 13, ../sass/styles.scss */
+.wrapper {
+  background-image: url('../img/bg/bg.jpg');
+  /*background-repeat: no-repeat;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  -webkit-background-size: contain;
+  background-size: contain;*/
+  background-position: top center;
+  padding-top: 650px;
+  position: relative;
+}
+
+/* line 23, ../sass/styles.scss */
+.container {
+  width: 999px !important;
+}
+
+/* line 30, ../sass/styles.scss */
+.footer {
+  height: 252px;
+  width: 100%;
+  background-color: #005694;
+  position: relative;
+}
+/* line 35, ../sass/styles.scss */
+.footer h1 {
+  position: absolute;
+  text-align: center;
+  top: -40px;
+  left: 32%;
+}
+/* line 41, ../sass/styles.scss */
+.footer ul {
+  text-align: center;
+  padding-top: 56px;
+}
+/* line 44, ../sass/styles.scss */
+.footer ul li {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+}
+
+/* line 52, ../sass/styles.scss */
+.w4 {
+  background-image: url('../img/section4/bg1.jpg');
+  /*background-repeat: no-repeat;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;*/
+  background-position: top center;
+  padding-bottom: 90px;
+  height: auto;
+}
+/* line 59, ../sass/styles.scss */
+.w4 h1 {
+  text-align: center;
+  margin-top: -2px;
+}
+/* line 63, ../sass/styles.scss */
+.w4 .row {
+  margin-top: -30px;
+}
+/* line 65, ../sass/styles.scss */
+.w4 .row .thumbnail {
+  position: relative;
+}
+/* line 67, ../sass/styles.scss */
+.w4 .row .thumbnail h3 {
+  width: 293px;
+  float: left;
+  font-family: "SimHei";
+  font-size: 22px;
+  margin-left: -5px;
+}
+/* line 75, ../sass/styles.scss */
+.w4 .row .thumbnail p {
+  position: absolute;
+  top: 52%;
+  right: 4%;
+  color: #207fc4;
+  font-size: 30px;
+}
+/* line 83, ../sass/styles.scss */
+.w4 .row .thumbnail p small {
+  font-size: 21px;
+  color: #242424;
+}
+/* line 87, ../sass/styles.scss */
+.w4 .row .thumbnail p span {
+  margin-left: -20px;
+  margin-right: -10px;
+  margin-left: -10px\9;
+  margin-right: -10px\9;
+}
+
+/* line 98, ../sass/styles.scss */
+.w3 {
+  margin-top: -370px;
+  /*background-image: url('../img/section3/bg1.jpg');*/
+  background-repeat: no-repeat;
+  background-position: top center;
+
+  height: 1001px;
+}
+/* line 104, ../sass/styles.scss */
+.w3 .container {
+  background-image: url('../img/section3/bg.png');
+  background-repeat: no-repeat;
+  background-position: top center;
+  /*-moz-background-size: 100%;
+  -o-background-size: 100%;
+  -webkit-background-size: 100%;
+  background-size: 100%;*/
+  height: auto;
+  text-align: center;
+  padding-top: 300px;
+  padding-left: 28px;
+  margin-top: 400px;
+  margin-bottom: 100px;
+}
+/* line 117, ../sass/styles.scss */
+.w3 ul {
+  float: left;
+  margin-right: 30px;
+  text-align: center;
+}
+/* line 122, ../sass/styles.scss */
+.w3 ul:nth-child(2) {
+  margin-left: 25px;
+}
+/* line 125, ../sass/styles.scss */
+.w3 ul:nth-child(3) {
+  margin-right: 0;
+  margin-left: 18px;
+}
+/* line 129, ../sass/styles.scss */
+.w3 ul li {
+  position: relative;
+  cursor: pointer;
+  margin-bottom: 25px;
+}
+/* line 134, ../sass/styles.scss */
+.w3 ul li:hover a {
+  display: block;
+}
+/* line 138, ../sass/styles.scss */
+.w3 ul li a {
+  position: absolute;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+/* line 153, ../sass/styles.scss */
+.w2 {
+  margin-top: -85px;
+  background-image: url('../img/section2/bg.png');
+  background-repeat: no-repeat;
+  /*-moz-background-size: 100%;
+  -o-background-size: 100%;
+  -webkit-background-size: 100%;
+  background-size: 100%;*/
+  background-position: top center;
+}
+/* line 158, ../sass/styles.scss */
+.w2 .container {
+  width: 1040px !important;
+  padding-top: 60px;
+}
+/* line 160, ../sass/styles.scss */
+.w2 .container h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+/* line 165, ../sass/styles.scss */
+.w2 .container ul li {
+  float: left;
+  margin-right: 12px;
+  position: relative;
+}
+/* line 169, ../sass/styles.scss */
+.w2 .container ul li:nth-child(1) {
+  margin-top: -125px;
+}
+/* line 172, ../sass/styles.scss */
+.w2 .container ul li:nth-child(2) {
+  margin-top: -30px;
+}
+/* line 175, ../sass/styles.scss */
+.w2 .container ul li:nth-child(3) {
+  margin-top: -85px;
+}
+/* line 179, ../sass/styles.scss */
+.w2 .container ul li:hover a {
+  display: block;
+}
+/* line 183, ../sass/styles.scss */
+.w2 .container ul li a {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 120%;
+}
+
+/* line 198, ../sass/styles.scss */
+.w1 {
+  margin-top: 50px;
+  position: relative;
+}
+/* line 200, ../sass/styles.scss */
+.w1 .container {
+  background-image: url('../img/section1/bg.png');
+  background-repeat: no-repeat;
+  background-position: top center;
+  width: 100%;
+  height: 777px;
+  position: relative;
+}
+/* line 208, ../sass/styles.scss */
+.w1 a {
+  position: absolute;
+}
+/* line 211, ../sass/styles.scss */
+.w1 .w1-a1 {
+  right: 10px;
+  top: 220px;
+}
+/* line 215, ../sass/styles.scss */
+.w1 .w1-a2 {
+  right: 370px;
+  top: 220px;
+}
+/* line 219, ../sass/styles.scss */
+.w1 .w1-a3 {
+  right: 10px;
+  top: 385px;
+}
+/* line 224, ../sass/styles.scss */
+.w1 .w1-a4 {
+  right: 282px;
+  top: 385px;
+}
+/* line 229, ../sass/styles.scss */
+.w1 .w1-a5 {
+  left: 6px;
+  top: 555px;
+}
+/* line 234, ../sass/styles.scss */
+.w1 .w1-a6 {
+  left: 245px;
+  top: 555px;
+}
+/* line 239, ../sass/styles.scss */
+.w1 .w1-a7 {
+  left: 485px;
+  top: 555px;
+}
+
+
+.zxy {
+  
+  text-align: center;
+}
+
+.zxy a {
+  float: left;
+  text-align: center;
+}
+
+.zxy a img {
+  /*width: 80%;
+  height: auto;*/
+}
+
+.zxy a:nth-child(1) {
+  margin-top: 22px;
+}
+
+.zxy a:nth-child(2) {
+  padding-top: 20px;
+  margin-left: 760px;
+}
+
+.w4 .row .thumbnail p span {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.w1-f {
+  position: absolute;
+  top: 400px;
+  left: -40px;
+}
+
+.cui_myctrip_log li.myctrip a {
+    font-size: 12px !important;
+}
